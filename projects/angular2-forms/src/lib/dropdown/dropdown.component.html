@@ -1,0 +1,6 @@
+<div class="dropdown">
+  <button class="dropbtn">{{label}}</button>
+  <div class="dropdown-content">
+    <a href="#" *ngFor="let item of items" (click)="itemSelected.emit(item.id)">{{item.label}}</a>
+  </div>
+</div>

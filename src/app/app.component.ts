@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+
+  dropDownItems=[{id:"x1",label:"item1"},{id:"x2",label:"item2"}]
+
+  dropDownItemSelected(id:string):void{
+    alert(id + " was selected");
+  }
 }
