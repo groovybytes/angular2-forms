@@ -1,6 +1,11 @@
 {
   "name": "angular2-forms",
   "version": "0.0.1",
+  "description": "angular2-desktop",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/groovybytes/angular2-forms.git"
+  },
   "peerDependencies": {
     "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
     "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
